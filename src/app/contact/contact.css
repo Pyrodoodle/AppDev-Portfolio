@@ -1,0 +1,39 @@
+.contact .info-item {
+  margin-bottom: 20px;
+}
+
+.contact .info-item i {
+  font-size: 20px;
+  color: #0d6efd;
+  margin-right: 10px;
+}
+
+.contact .info-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.contact .info-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.contact .email-form .form-control {
+  margin-bottom: 15px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.contact .email-form button[type=submit] {
+  background: #0d6efd;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.contact .email-form button[type=submit]:hover {
+  background: #0b5ed7;
+}

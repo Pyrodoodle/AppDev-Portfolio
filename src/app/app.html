@@ -1,0 +1,30 @@
+
+<nav id="navbar" class="navbar">
+  <div class="profile">
+    <img src="assets/img/PYRO.jpg" alt="Profile" class="profile-img" />
+    <h1 class="profile-name">Pyro Lipang</h1>
+  </div>
+
+  <ul>
+    <li>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <i class="bi bi-house"></i> <span>Home</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/about-resume" routerLinkActive="active">
+        <i class="bi bi-person"></i> <span>About</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/contact" routerLinkActive="active">
+        <i class="bi bi-envelope"></i> <span>Contact</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+<main id="main" class="main">
+  <router-outlet></router-outlet>
+</main>
